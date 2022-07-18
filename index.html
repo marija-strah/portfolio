@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marija the Developer</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="images/icon.png" />
+    
+ 
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav>
+
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">marija</a>
+        <a href="#about">about me</a>
+        <a href="#tech">tech</a>
+        <a href="#portfolio">portfolio</a>
+        <a href="#contact">contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    </nav>
+
+    <!-- INTRO -->
+    <div>
+        <div>
+            <div class="img-div">
+                <img class="profile-img" id ="home" src="/images/marija.JPG" alt="Marija wearing a black turtle neck and red lipstick smiling slightly at the camera"/>
+            </div>
+            <div>
+                <h1>Marija Strahinjić</h1>
+                <br/>
+                <h2 id="about"><span>Web Developer</span></h2>
+                <p>Hello! I am Marija, junior MERN developer and a philomath. <br/> Welcome to my portfolio!</p>
+                <div class="resume">
+                <p>
+                  An inquisitive <a href="https://www.crystalknows.com/p/marijastrahinjic">ENTP</a> coder with an insatiable curiosity for knowing more.
+                  To me, coding is a passion, a way to express myself and solve problems.
+                  Every day is an opportunity to learn something new and to grow.</p></div>
+                  <br/>
+                  <a href="https://www.canva.com/design/DAFCqp1SZCw/2L24hm4PRQYzESNQTaTGhg/view?utm_content=DAFCqp1SZCw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" class="cv-link">Download my CV</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MY TECH STACK -->
+    <div>
+        <div>
+            <h3 id="tech"><span>My Tech Stack</span></h3>
+            <p>Here are the technologies I have worked with so far:</p>
+            <div class="keywords-tech">
+                <table class="tech-table" >
+                  <tr>
+                    <th>Frontend</th>
+                    <th>Backend</th>
+                    <th>Version Control</th>
+                    <th>Databases</th>
+                  </tr>
+                  <tr>
+                    <td>JavaScript</td>
+                    <td>Node.js</td>
+                    <td>Git</td>
+                    <td>MongoDB</td>
+                  </tr>
+                  <tr>
+                    <td>React</td>
+                    <td>Express</td>
+                    <td>GitHub</td>
+                    <td>Postman</td>
+                  </tr>
+                  <tr>
+                    <td>HTML5</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>CSS3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Bootstrap</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+
+                </table>
+
+            </div>
+
+    
+        </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div>
+        <div class="row middle justify-content-center">
+            <h3 id="portfolio"><span>My Projects</span></h3>
+            <p>Some of the individual and collaborative projects I have built:</p>
+            
+            <div class="card col-12 col-lg-4" style="width: 18rem;">
+              <img class="card-img-top" src="./images/melody.jpg" alt="Girl wearing beige learning to play guitar online">
+              <div class="card-body">
+                <h5 class="card-title">Master Melody</h5>
+                <p class="card-text">Personal habit tracker for people learning musical instruments.</p>
+                <a href="https://master-melody.netlify.app/" target="_blank" class="btn">See App</a>
+                <a href="https://github.com/Bitchachos/master-melody-client" target="_blank" class="btn code">Code</a>
+                <br/>
+                <button class="collapsible">▼</button>
+                <div class="content hide">
+                  <p><b>Main Tech Stack</b>:
+                    <br/>
+                  React, NodeJS, Express</p>
+                  <p><b>Project Features:</b>
+                    <ul>
+                      <li>CRUD operations</li>
+                      <li>Create account</li>
+                      <li>Log in & out</li>
+                      <li>Create rehearsals</li>
+                      <li>Add/edit/delete songs</li>
+                      <li>Protected routes</li>
+                      <li>Authentication</li>
+                      <li>Dark theme</li>
+                    </ul>
+                    <div><b>Key Takeaways:</b>
+                      <br/>
+                      This project exposed me to pair programming and taught me how to be comfortable being watched while coding. Consequently, I overcame my fear of making mistakes and became more flexible.
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-12 col-lg-4" style="width: 18rem;">
+              <img class="card-img-top" src="./images/vinyl.jpg" alt="Black vinyl record">
+              <div class="card-body">
+                <h5 class="card-title">Replay Me</h5>
+                <p class="card-text">E-commerce website for exchanging second-hand vinyl records.</p>
+                <a href="https://replay-me.herokuapp.com/" target="_blank" class="btn">See App</a>
+                <a href="https://github.com/Bitchachos/replay-me" target="_blank" class="btn code">Code</a>
+                <br/>
+                <button class="collapsible">▼</button>
+                <div class="content hide">
+                  <p><b>Main Tech Stack</b>:
+                    <br/>
+                  NodeJS, Express, Handlebars</p>
+                  <p><b>Project Features:</b>
+                    <ul>
+                      <li>Create account</li>
+                      <li>Log in & out</li>
+                      <li>Add/edit/delete records</li>
+                      <li>Protected routes</li>
+                      <li>Authentication</li>
+                    </ul>
+                    <div><b>Key Takeaways:</b>
+                      <br/>
+                      First experience with views (patterns, models) and .hbs format. <i>Replay Me</i> was my first collaborative project. Teamwork and task dellegation were primary focus, executed using Trello.
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-12 col-lg-4" style="width: 18rem;">
+              <img class="card-img-top" src="./images/deadline.jpg" alt="Multi-colour background with a traditional alarm clock">
+              <div class="card-body">
+                <h5 class="card-title">Deadline Dodger</h5>
+                <p class="card-text">Classic cross-the-road '90s style JavaScript game.</p>
+                <a href="https://marija-strah.github.io/deadline-dodger/" target="_blank" class="btn">See App</a>
+                <a href="https://github.com/marija-strah/deadline-dodger" target="_blank" class="btn code">Code</a>
+                <br/>
+                <button class="collapsible">▼</button>
+                <div class="content hide">
+                  <p><b>Main Tech Stack</b>:
+                    <br/>
+                  JS, HTML, CSS</p>
+                  <p><b>Project Features:</b>
+                    <ul>
+                      <li>Collision detection</li>
+                      <li>Event listeners</li>
+                    </ul>
+                    <div><b>Key Takeaways:</b>
+                      <br/>
+                    <i>Deadline Dodger</i> is a humorous Vanilla JavaScript game where the player needs to evade obstacles. It was my first coding bootcamp project, which introduced me to JavaScript.
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-12 col-lg-4" style="width: 18rem;">
+              <img class="card-img-top" src="./images/calculator.jpg" alt="Old school Casio calculator">
+              <div class="card-body">
+                <h5 class="card-title">Calculator</h5>
+                <p class="card-text">Responsive calculator with basic arithmetic operations.</p>
+                <a href="https://marija-strah.github.io/calculator/" target="_blank" class="btn">See App</a>
+                <a href="https://github.com/marija-strah/calculator" target="_blank" class="btn code">Code</a>
+                <br/>
+                <button class="collapsible">▼</button>
+                <div class="content hide">
+                  <p><b>Main Tech Stack</b>:
+                    <br/>
+                  JS, HTML, CSS</p>
+                  <p><b>Project Features:</b>
+                    <ul>
+                      <li>Basic arithmetic operations</li>
+                      <li>Decimals enabled</li>
+                      <li>Mobile responsive</li>
+                    </ul>
+                    <div><b>Key Takeaways:</b>
+                      <br/>
+                      I chose the calculator as a straight-forward project to practise my JavaScript skills. I intend to add more features to it in the future.
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-12 col-lg-4" style="width: 18rem;">
+              <img class="card-img-top" src="./images/construction.jpg" alt="Multi-colour background with a traditional alarm clock">
+              <div class="card-body">
+                <h5 class="card-title">Coming Soon</h5>
+                <p class="card-text">Stay tuned for what's cooking in my creative kitchen!</p>
+                <a href="https://github.com/marija-strah" target="_blank" class="btn">Portfolio</a>
+              </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div>
+        <div class="contact">
+            <h3 id="contact"><span>Let's connect!</span></h3>
+            <ul>
+                <li><a href="mailto:marija.strahinjic@hotmail.com" target="_blank">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/marija-strahinjic/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/marija-strah" target="_blank">GitHub</a></li>
+                <li><a href="https://medium.com/@marijastrahinjic" target="_blank">Medium</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+
+</html>
