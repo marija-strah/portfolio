@@ -221,4 +221,14 @@ div > .code {
     padding: 0px;
     line-height: 2%;
   }
+
+  table th {
+    display: none;
+  }
+
+  table td {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
